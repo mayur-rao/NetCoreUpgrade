@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  xmlbasedwebapp:
+    image: ${DOCKER_REGISTRY-}xmlbasedwebapp
+    build:
+      context: .
+      dockerfile: XmlBasedWebApp/Dockerfile
+    ports:
+      - 32817:80

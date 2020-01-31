@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WebApiHitter": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
